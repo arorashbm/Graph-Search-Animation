@@ -1,0 +1,116 @@
+﻿body {
+    font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+#container {
+    display: flex;
+}
+
+#draw-area {
+    width: 72%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    border-style: solid;
+}
+
+#instruction {
+    right: 4%;
+    top: 4%;
+    position: absolute;
+}
+
+.list {
+    display: flex;
+}
+
+.hr {
+    border: solid;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 94vh;
+    margin-top: 10px;
+    background: aliceblue;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px;
+    background: yellow;
+    border-color: red;
+    color: orangered;
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+
+#input {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#start-node-p {
+    font-size: 20px;
+}
+
+.input {
+    width: 100px;
+    height: 15px;
+    margin: 10px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    text-indent: 10px;
+    outline: none;
+}
+
+.graph-searches {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search {
+    width: 60px;
+}
+
+#add-node, #add-edge {
+    width: 100px;
+}
+
+.not-active {
+    display: none;
+}
+
+#links {
+  display: flex;
+}
+
+.pdf {
+    width: 50%;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.readme {
+    width: 50%;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 18px;
+    text-decoration: none;
+}
